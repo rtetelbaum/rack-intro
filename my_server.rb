@@ -4,6 +4,6 @@ class MyServer
   end
 
   def pretty_response
-    (Time.now.to_i % 2).zero? ?  ["Hello"] : ["HELLO"]
+    (Time.now.to_i % 2).zero? ?  ["Hello"] : ["hello"]
   end
 end
